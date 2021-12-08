@@ -13,8 +13,8 @@
 |CLIENTE_PAIS	|customer_country	|text	|Livre	|100	|Sim	|País de endereço do cliente	||
 |HOSPEDE_CIDADE	|customer_city|	text	|Livre	|100	|Sim	|Cidade de endereço do cliente|	|
 |CLIENTE_UF|	customer_state|	text|	Livre|	100|	Sim	|Estado de endereço do cliente|	Apenas dois valores possíveis: "PRINCIPAL" e "ACOMPANHANTE"|
-|VALOR_PEDIDO|	order_value	number|	Livre	|30	|Não	|Valor pago pelo serviço contratado	|Formato de valor monetário "0,00"|
-|CAMPANHA_ALLPOINTS|	campaign_id	text	|Livre	|30	|Não	|Código da campanha de pontuação vigente	|Código fornecido previamente pela Allpoints de acordo com possíveis campanhas|
+|VALOR_PEDIDO|	order_value|	number|	Livre	|30	|Não	|Valor pago pelo serviço contratado	|Formato de valor monetário "0,00"|
+|CAMPANHA_ALLPOINTS|	campaign_id|	text	|Livre	|30	|Não	|Código da campanha de pontuação vigente	|Código fornecido previamente pela Allpoints de acordo com possíveis campanhas|
 |SIGN_IN_FIDELIDADE	|loyalty_opt_in	|boolean	| boolean	|30	|Não|	Autorização do cliente para participação do Programa de Fidelidade Allpoints (Sim ou Não)|	A autorização deve ser concedida pelo cliente no momento da contratação do serviço|
 |SIGN_IN_FIDELIDADE_DATE|	loyalty_opt_in_time|	datetimeoffset	| ISO 8601 YYYY-MM-DDThh:mm:ss.sTZD (eg 1997-07-16T19:20:30.45+01:00)|	N/A	|Não|	Data da autorização do hóspede para participação do Programa de Fidelidade Allpoints|
 
