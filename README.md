@@ -9,7 +9,7 @@
 |CLIENTE_DOCUMENTO_NUMERO	|customer_legal_id_number	|text	|Somente números e letras	|100	|Não|	Documento do cliente estrangeiro (CPF; Passaporte, RNE)|	Para brasileiros, a chave de cadastro e pontuação no Programa Allpoints deve ser o CPF|
 |CLIENTE_DOCUMENTO_TIPO	|customer_legal_id_type|	text|	Livre|	100|	Não	|Tipo do documento do cliente estrangeiro (CPF, Passaporte, RNE, etc)	||
 |CLIENTE_EMAIL |customer_email	|	text|	E-mail válido|	30|	Não	|E-mail do cliente||
-|CLIENTE_CELULAR	|customer_phone_number|	text	|Número de telefone |válido com código do país	|100|Não	|Celular do cliente com DDD e DDI||
+|CLIENTE_CELULAR	|customer_phone_number|	text	|Número de telefoneválido com código do país	|100|Não	|Celular do cliente com DDD e DDI||
 |CLIENTE_PAIS	|customer_country	|text	|Livre	|100	|Sim	|País de endereço do cliente	||
 |HOSPEDE_CIDADE	|customer_city|	text	|Livre	|100	|Sim	|Cidade de endereço do cliente|	|
 |CLIENTE_UF|	customer_state|	text|	Livre|	100|	Sim	|Estado de endereço do cliente|	Apenas dois valores possíveis: "PRINCIPAL" e "ACOMPANHANTE"|
