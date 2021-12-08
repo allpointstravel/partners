@@ -16,5 +16,5 @@
 |VALOR_PEDIDO|	order_value	number|	Livre	|30	|Não	|Valor pago pelo serviço contratado	|Formato de valor monetário "0,00"|
 |CAMPANHA_ALLPOINTS|	campaign_id	text	|Livre	|30	|Não	|Código da campanha de pontuação vigente	|Código fornecido previamente pela Allpoints de acordo com possíveis campanhas|
 |SIGN_IN_FIDELIDADE	|loyalty_opt_in	|boolean	| boolean	|30	|Não|	Autorização do cliente para participação do Programa de Fidelidade Allpoints (Sim ou Não)|	A autorização deve ser concedida pelo cliente no momento da contratação do serviço|
-|SIGN_IN_FIDELIDADE_DATE|	loyalty_opt_in_time|	datetimeoffset	| ISO 8601 YYYY-MM-DDThh:mm:ss.sTZD (eg 1997-07-16T19:20:30.45+01:00)|	N/A	|Não	Data da autorização do hóspede para participação do Programa de Fidelidade Allpoints|
+|SIGN_IN_FIDELIDADE_DATE|	loyalty_opt_in_time|	datetimeoffset	| ISO 8601 YYYY-MM-DDThh:mm:ss.sTZD (eg 1997-07-16T19:20:30.45+01:00)|	N/A	|Não|	Data da autorização do hóspede para participação do Programa de Fidelidade Allpoints|
 
